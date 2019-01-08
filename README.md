@@ -1,8 +1,4 @@
-
 # Testando o Travis
 
 ![status do repositório](https://api.travis-ci.com/marcoaugustoandrade/teste-travis-dev.svg?branch=master)
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
