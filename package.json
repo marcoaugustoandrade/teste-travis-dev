@@ -1,0 +1,26 @@
+{
+  "name": "teste-travis-dev",
+  "version": "1.0.0",
+  "description": "Testando o Travis",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoaugustoandrade/teste-travis-dev.git"
+  },
+  "keywords": [
+    "testando",
+    "travis"
+  ],
+  "author": "Marco Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcoaugustoandrade/teste-travis-dev/issues"
+  },
+  "homepage": "https://github.com/marcoaugustoandrade/teste-travis-dev#readme",
+  "devDependencies": {
+    "jshint": "^2.9.7"
+  }
+}
