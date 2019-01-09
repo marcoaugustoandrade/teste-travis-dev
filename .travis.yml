@@ -11,3 +11,11 @@ script:
   - npm run test
   - npm run build
   - bash ./deploy.sh
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: gh-pages
