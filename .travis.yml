@@ -9,4 +9,5 @@ notifications:
 
 script:
   - npm run test
+  - npm run build
   - bash ./deploy.sh

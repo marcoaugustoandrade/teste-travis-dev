@@ -4,7 +4,9 @@
   "description": "Testando o Travis",
   "main": "index.js",
   "scripts": {
-    "test": "jshint index.js"
+    "test": "jshint index.js",
+    "build": "gulp",
+    "start": "node dist/index.min.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,10 @@
   },
   "homepage": "https://github.com/marcoaugustoandrade/teste-travis-dev#readme",
   "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1",
     "jshint": "^2.9.7"
   }
 }

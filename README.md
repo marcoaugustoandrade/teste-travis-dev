@@ -1,4 +1,3 @@
 # Testando o Travis
 
-![status do repositório](https://api.travis-ci.com/marcoaugustoandrade/teste-travis-dev.svg?branch=master)
-
+[![Build Status](https://travis-ci.com/marcoaugustoandrade/teste-travis-dev.svg?branch=master)](https://travis-ci.com/marcoaugustoandrade/teste-travis-dev)
